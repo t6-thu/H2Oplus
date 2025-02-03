@@ -1,5 +1,5 @@
 # H2O+
-H2O+ ([https://arxiv.org/abs/2206.13464](https://arxiv.org/abs/2206.13464)) is An Improved Framework for Hybrid Offline-and-Online RL with Dynamics Gaps.
+[H2O+](https://arxiv.org/abs/2309.12716) is An Improved Framework for Hybrid Offline-and-Online RL with Dynamics Gaps.
 
 
 ## Installation and Setups
