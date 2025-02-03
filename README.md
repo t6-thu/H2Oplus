@@ -17,7 +17,7 @@ We benchmark H2O+ and its baselines on MuJoCo simulation environment and D4RL da
 ```
     cd SimpleSAC
 ```
-Then you can run H2O experiments using the following example commands.
+Then you can run H2O+ experiments using the following example commands.
 ### Simulated in HalfCheetah-v2 with 2x gravity and Medium Replay dataset
 ```python
     python drh2o_main.py \
@@ -51,7 +51,7 @@ You can resort to [wandb](https://wandb.ai/site) to login your personal account 
 and run `wandb online` to turn on the online syncronization.
 
 ## Citation
-If you are using H2O framework or code for your project development, please cite the following paper:
+If you are using H2O+ framework or code for your project development, please cite the following paper:
 ```
 @inproceedings{
     niu2025h2o+,
