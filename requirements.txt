@@ -1,0 +1,8 @@
+tqdm
+pyyaml
+tensorflow==1.13.1
+numpy
+tmuxp
+matplotlib
+mujoco_py
+gym
