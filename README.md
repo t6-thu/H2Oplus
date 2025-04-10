@@ -12,8 +12,8 @@ Add this repo directory to your `PYTHONPATH` environment variable:
     export PYTHONPATH="$PYTHONPATH:$(pwd)"
 ```
 
-## Run Wheel-legged Robot Experiments with Issac Sim [烟花]
-Practitioner can rewrite scripts about the task, environment, and training algorithms for Issac Sim wheel-legged robot at their use, according to the examples in `SimpleSAC`.
+## Run Wheel-legged Robot Experiments with Issac Sim
+Practitioner can rewrite scripts about the task (`SimpleSAC/wheel_legged_task.py`), environment (`SimpleSAC/envs.py`), and training algorithms for Issac Sim wheel-legged robot at their use, according to the examples in `SimpleSAC`. Note that some dependencies are in [D2C](https://github.com/AIR-DI/D2C) repository.
 
 ## Run Benchmark Experiments
 We benchmark H2O+ and its baselines on MuJoCo simulation environment and D4RL datasets. To begin, enter the folder `SimpleSAC`:
