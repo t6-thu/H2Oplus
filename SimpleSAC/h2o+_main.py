@@ -23,7 +23,7 @@ from envs import get_new_density_env, get_new_friction_env, get_new_gravity_env,
 from mixed_replay_buffer import MixedReplayBuffer
 from model import FullyConnectedQFunction, FullyConnectedNetwork, SamplerPolicy, TanhGaussianPolicy
 from sampler import StepSampler, TrajSampler
-from drh2o import H2OPLUS
+from h2oplus import H2OPLUS
 from utils import (Timer, WandBLogger, define_flags_with_default,
                 get_user_flags, prefix_metrics, print_flags,
                 set_random_seed)
