@@ -23,7 +23,7 @@ We benchmark H2O+ and its baselines on MuJoCo simulation environment and D4RL da
 Then you can run H2O+ experiments using the following example commands.
 ### Simulated in HalfCheetah-v2 with 2x gravity and Medium Replay dataset
 ```python
-    python drh2o_main.py \
+    python h2oplus.py \
         --env_list HalfCheetah-v2 \
         --data_source medium_replay \
         --unreal_dynamics gravity \
@@ -31,7 +31,7 @@ Then you can run H2O+ experiments using the following example commands.
 ```
 ### Simulated in Walker-v2 with .3x friction and Medium Replay dataset
 ```python
-    python drh2o_main.py \
+    python h2oplus.py \
         --env_list Walker-v2 \
         --data_source medium_replay \
         --unreal_dynamics friction \
@@ -39,7 +39,7 @@ Then you can run H2O+ experiments using the following example commands.
 ```
 ### Simulated in HalfCheetah-v2 with joint noise N(0,1) and Medium dataset
 ```python
-    python drh2o_main.py \
+    python h2oplus.py \
         --env_list HalfCheetah-v2 \
         --data_source medium \
         --variety_list 1.0 \
