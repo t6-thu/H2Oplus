@@ -12,7 +12,7 @@ Add this repo directory to your `PYTHONPATH` environment variable:
     export PYTHONPATH="$PYTHONPATH:$(pwd)"
 ```
 
-## Run Wheel-legged Robot Experiments with Issac Sim
+## Run Wheel-legged Robot Experiments with Issac Sim [烟花]
 Practitioner can rewrite scripts about the task, environment, and training algorithms for Issac Sim wheel-legged robot at their use, according to the examples in `SimpleSAC`.
 
 ## Run Benchmark Experiments
